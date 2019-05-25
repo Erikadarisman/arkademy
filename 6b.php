@@ -29,7 +29,7 @@ $query=mysqli_query($conn,"SELECT users.id, users.name, GROUP_CONCAT(skills.name
     <div class="container">
         <div class="row">
             <div class="col-lg-12 pt-5">
-                <form action="" method="get">
+                <form action="" method="post">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Tambah Programmer Baru"
                             aria-label="Recipient's username" aria-describedby="button-addon2" name="programmer">
