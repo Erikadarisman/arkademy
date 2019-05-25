@@ -1,0 +1,1 @@
+Select users.name as name_programer, count(skills.id) as jumlah_skill from users join skills on users.id=skills.user_id group by users.name
